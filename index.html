@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple quiz 2</title>
+    <style>
+
+        .container {
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 60%;
+            padding: 20px;
+            background-color: lightblue;
+            display: none;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form name="myform">
+        Which of the following is my clg frnd name?<br>
+        <input type="radio" name="q1" value="a">Suhani<br>
+        <input type="radio" name="q1"value="b">Khushi<br>
+        <input type="radio" name="q1" value="c">Ziya<br>
+        <input type="radio" name="q1" value="d">Yeh bhi nahi pata<br>
+        <input type="button" value="submit"  onclick="result()">
+    </form>
+<script>
+  function result(){
+    var count=0;
+    var q1=document.myform.q1.value;
+    if (q1=="b"){
+        alert("I hope we are friends until we die...Then i hope we stay ghost friends💀so that we can walk through walls and scare people😛😆😆🤣🤣 ")
+    }
+    else{
+      alert("oops  wrong ans try again!! ")
+    }
+
+  }
+
+</script>
+</<body>
+</html>
